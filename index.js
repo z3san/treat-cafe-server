@@ -1,11 +1,11 @@
 const express = require("express");
 const app = express();
-
+const cors = require("cors");
 const port = process.env.port || 5000;
 
 const chefs = require("./data/chefs.json");
 
-
+app.use(cors());
 
 app.get("/", (req, res) => {
   res.send("treat cafe running");
