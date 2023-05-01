@@ -1,11 +1,23 @@
 const express = require("express");
 const app = express();
-const port = process.env.PORT || 5000;
+
+const port = process.env.port || 5000;
+
+const chefs = require("./data/chefs.json");
+
+
 
 app.get("/", (req, res) => {
-  res.send("hello from the server");
+  res.send("treat cafe running");
 });
 
-app.listen(port, ()=>{
-    console.log(`Server is running on the port ${port}`)   ;
-})
+app.get("/chefs", (req, res) => {
+  res.send(chefs);
+});
+
+
+
+
+app.listen(port, () => {
+  console.log(`treat cafe running on port:  ${port}`);
+});
