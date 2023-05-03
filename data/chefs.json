@@ -5,79 +5,212 @@
             "name": "Alice Smith",
             "experience": 10,
             "total_recipes": 50,
-
+            "recipes": [
+              {
+                "recipe_name": "Classic American Cheeseburger",
+                "ingredients": [
+                  "Ground beef, ", 
+                   "American cheese, ",
+                  "Lettuce, ",
+                  "Tomato, ",
+                  "Hamburger buns. "
+                ],
+                "cooking_method": "Form the beef into patties, season with salt and pepper, grill or pan-fry until cooked through, add cheese, and serve on toasted buns with lettuce and tomato.",
+                "rating": 4.5
+              },
+              {
+                "recipe_name": "Southern Fried Chicken",
+                "ingredients": [
+                  "Chicken pieces, ",
+                  "Buttermilk, ",
+                  "Flour, ",
+                  "Paprika, ",
+                  "Salt. "
+                ],
+                "cooking_method": "Soak chicken pieces in buttermilk, coat in seasoned flour, and deep fry until crispy and golden brown.",
+                "rating": 4.2
+              },
+              {
+                "recipe_name": "Homestyle Meatloaf",
+                "ingredients": [
+                  "Ground beef, ",
+                  "Breadcrumbs, ",
+                  "Onion, ",
+                  "Egg, ",
+                  "Ketchup. "
+                ],
+                "cooking_method": "Mix together the beef, breadcrumbs, onion, egg, and ketchup, form into a loaf, and bake until cooked through.",
+                "rating": 4.8
+              },
+              {
+                "recipe_name": "New England Clam Chowder",
+                "ingredients": [
+                  "Clams, ",
+                  "Potatoes, ",
+                  "Onion, ",
+                  "Bacon, ",
+                  "Heavy cream. "
+                ],
+                "cooking_method": "Cook the clams, potatoes, onion, and bacon in a pot with water, add heavy cream, and simmer until thickened and creamy.",
+                "rating": 4.4
+              },
+              {
+                "recipe_name": "Apple Pie",
+                "ingredients": [
+                  "Pie crust, ",
+                  "Apples, ",
+                  "Sugar, ",
+                  "Cinnamon, ",
+                  "Butter. "
+                ],
+                "cooking_method": "Mix together sliced apples, sugar, cinnamon, and butter, place in a pie crust, and bake until golden brown and bubbly.",
+                "rating": 4.6
+              }
+            ],
             "likes": 10000,
             "bio": "Alice is a classically trained chef who has worked in some of the finest restaurants in Europe. She specializes in French cuisine and is known for her exquisite pastry-making skills."
           },
           {
             "id": 2,
-            "picture": "https://images.unsplash.com/photo-1583394293214-28ded15ee548?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
+            "picture": "https://images.unsplash.com/photo-1595475038784-bbe439ff41e6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDB8fGNoZWZ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
             "name": "Bob Johnson",
             "experience": 5,
             "total_recipes": 30,
-
+            
+    "recipes": [
+      {
+        "recipe_name": "BBQ Pulled Pork",
+        "ingredients": [
+          "Pork shoulder, ",
+          "BBQ sauce, ",
+          "Apple cider vinegar, ",
+          "Brown sugar, ",
+          "Hamburger buns. "
+        ],
+        "cooking_method": "Slow-cook the pork shoulder with BBQ sauce, apple cider vinegar, and brown sugar until tender, then shred and serve on toasted buns.",
+        "rating": 4.4
+      },
+      {
+        "recipe_name": "Jambalaya",
+        "ingredients": [
+          "Sausage, ",
+          "Shrimp, ",
+          "Chicken, ",
+          "Rice, " ,
+          "Bell peppers, "
+        ],
+        "cooking_method": "Cook sausage, shrimp, and chicken with rice, bell peppers, and Cajun seasoning in a pot until rice is tender and everything is heated through.",
+        "rating": 4.2
+      },
+      {
+        "recipe_name": "Biscuits and Gravy",
+        "ingredients": [
+          "Biscuits, ",
+          "Pork sausage, ",
+          "Milk, ",
+          "Flour, ",
+          "Salt. "
+        ],
+        "cooking_method": "Cook pork sausage in a skillet, add milk and flour to make a gravy, and serve over warm biscuits.",
+        "rating": 4.6
+      },
+      {
+        "recipe_name": "Beef Stew",
+        "ingredients": [
+          "Beef stew meat, ",
+          "Carrots, ",
+          "Potatoes, ",
+          "Onion, ",
+          "Beef broth. "
+        ],
+        "cooking_method": "Brown the beef stew meat, add vegetables and beef broth, and simmer until everything is tender and flavorful.",
+        "rating": 4.3
+      },
+      {
+        "recipe_name": "Cornbread",
+        "ingredients": [
+          "Cornmeal, ",
+          "Flour, ",
+          "Sugar, ",
+          "Baking powder, ",
+          "Buttermilk. "
+        ],
+        "cooking_method": "Mix together the dry ingredients, add buttermilk and eggs, and bake until golden brown and fluffy.",
+        "rating": 4.8
+      }
+    ],
             "likes": 5000,
             "bio": "Bob is a self-taught chef who has gained a following on social media for his creative fusion dishes. He loves experimenting with different flavors and textures to create dishes that are both delicious and visually stunning."
           },
           {
             "id": 3,
-            "picture": "https://images.unsplash.com/photo-1595273670150-bd0c3c392e46?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=787&q=80",
+            "picture": "https://images.unsplash.com/photo-1654922207993-2952fec328ae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
             "name": "Charlie Brown",
             "experience": 7,
             "total_recipes": 40,
-            "recipes": [
-        {
-          "recipe_name": "Spaghetti Bolognese",
-          "ingredients": [
-            "1 pound ground beef",
-            "1 onion, diced",
-            "2 cloves garlic, minced",
-            "1 can (28 oz) crushed tomatoes",
-            "1/2 teaspoon salt",
-            "1/4 teaspoon black pepper",
-            "1 teaspoon dried oregano",
-            "1 teaspoon dried basil",
-            "1/4 teaspoon red pepper flakes",
-            "1 pound spaghetti pasta"
-          ],
-          "cooking_method": "1. In a large skillet, cook the ground beef over medium-high heat until browned, breaking it up into small pieces as it cooks. Remove the beef from the skillet and set aside.\n2. In the same skillet, add the onion and garlic and cook until the onion is translucent and the garlic is fragrant, about 3-4 minutes.\n3. Add the crushed tomatoes, salt, black pepper, oregano, basil, and red pepper flakes to the skillet and stir to combine.\n4. Add the cooked ground beef back to the skillet and stir to combine. Reduce the heat to low and let the sauce simmer for 20-30 minutes, stirring occasionally.\n5. While the sauce is simmering, cook the spaghetti pasta according to the package directions. Drain the pasta.\n6. Serve the spaghetti with the Bolognese sauce on top. Enjoy!",
-          "rating": 4.5
-        },
-        {
-          "recipe_name": "Spaghetti Bolognese",
-          "ingredients": [
-            "1 pound ground beef",
-            "1 onion, diced",
-            "2 cloves garlic, minced",
-            "1 can (28 oz) crushed tomatoes",
-            "1/2 teaspoon salt",
-            "1/4 teaspoon black pepper",
-            "1 teaspoon dried oregano",
-            "1 teaspoon dried basil",
-            "1/4 teaspoon red pepper flakes",
-            "1 pound spaghetti pasta"
-          ],
-          "cooking_method": "1. In a large skillet, cook the ground beef over medium-high heat until browned, breaking it up into small pieces as it cooks. Remove the beef from the skillet and set aside.\n2. In the same skillet, add the onion and garlic and cook until the onion is translucent and the garlic is fragrant, about 3-4 minutes.\n3. Add the crushed tomatoes, salt, black pepper, oregano, basil, and red pepper flakes to the skillet and stir to combine.\n4. Add the cooked ground beef back to the skillet and stir to combine. Reduce the heat to low and let the sauce simmer for 20-30 minutes, stirring occasionally.\n5. While the sauce is simmering, cook the spaghetti pasta according to the package directions. Drain the pasta.\n6. Serve the spaghetti with the Bolognese sauce on top. Enjoy!",
-          "rating": 4.5
-        },
-        {
-          "recipe_name": "Spaghetti Bolognese",
-          "ingredients": [
-            "1 pound ground beef",
-            "1 onion, diced",
-            "2 cloves garlic, minced",
-            "1 can (28 oz) crushed tomatoes",
-            "1/2 teaspoon salt",
-            "1/4 teaspoon black pepper",
-            "1 teaspoon dried oregano",
-            "1 teaspoon dried basil",
-            "1/4 teaspoon red pepper flakes",
-            "1 pound spaghetti pasta"
-          ],
-          "cooking_method": "1. In a large skillet, cook the ground beef over medium-high heat until browned, breaking it up into small pieces as it cooks. Remove the beef from the skillet and set aside.\n2. In the same skillet, add the onion and garlic and cook until the onion is translucent and the garlic is fragrant, about 3-4 minutes.\n3. Add the crushed tomatoes, salt, black pepper, oregano, basil, and red pepper flakes to the skillet and stir to combine.\n4. Add the cooked ground beef back to the skillet and stir to combine. Reduce the heat to low and let the sauce simmer for 20-30 minutes, stirring occasionally.\n5. While the sauce is simmering, cook the spaghetti pasta according to the package directions. Drain the pasta.\n6. Serve the spaghetti with the Bolognese sauce on top. Enjoy!",
-          "rating": 4.5
-        }
-      ],
+            
+    "recipes": [
+      {
+        "recipe_name": "Chicken Fried Steak",
+        "ingredients": [
+          "Cube steak, ",
+          "Flour, ",
+          "Milk, ",
+          "Eggs, ",
+          "Oil. "
+        ],
+        "cooking_method": "Dredge cube steak in a mixture of flour and spices, dip in a mixture of milk and eggs, and fry until crispy and golden brown.",
+        "rating": 4.5
+      },
+      {
+        "recipe_name": "Philly Cheesesteak",
+        "ingredients": [
+          "Beef sirloin, ",
+          "Hoagie rolls, ",
+          "Onions, ",
+          "Bell peppers, ",
+          "Provolone cheese, "
+        ],
+        "cooking_method": "Sauté onions and bell peppers, cook sliced beef sirloin, top with provolone cheese, and serve on a hoagie roll.",
+        "rating": 4.3
+      },
+      {
+        "recipe_name": "Chicken and Dumplings",
+        "ingredients": [
+          "Chicken thighs, ",
+          "Carrots, ",
+          "Celery, ",
+          "Onion, ",
+          "Flour, "
+        ],
+        "cooking_method": "Cook chicken, vegetables, and dumplings in a pot until everything is tender and the dumplings are cooked through.",
+        "rating": 4.6
+      },
+      {
+        "recipe_name": "New England Clam Chowder",
+        "ingredients": [
+          "Clams, ",
+          "Potatoes, ",
+          "Bacon, ",
+          "Onion, ",
+          "Heavy cream. "
+        ],
+        "cooking_method": "Cook clams, bacon, and vegetables in a pot, add heavy cream, and simmer until everything is hot and creamy.",
+        "rating": 4.4
+      },
+      {
+        "recipe_name": "Apple Pie",
+        "ingredients": [
+          "Pie crust, ",
+          "Apples, ",
+          "Sugar, ",
+          "Cinnamon, ",
+          "Butter. "
+        ],
+        "cooking_method": "Mix together apples, sugar, cinnamon, and butter, pour into a pie crust, top with another pie crust, and bake until the crust is golden brown and the filling is bubbly.",
+        "rating": 4.8
+      }
+    ],
             "likes": 8000,
             "bio": "Charlie is a vegetarian chef who specializes in creating plant-based dishes that are both healthy and delicious. She loves experimenting with different vegetables and spices to create unique flavor profiles."
           },
@@ -87,17 +220,140 @@
             "name": "David Lee",
             "experience": 12,
             "total_recipes": 60,
-
+            "recipes": [
+              {
+                "recipe_name": "Biscuits and Gravy",
+                "ingredients": [
+                  "Flour, ",
+                  "Butter, ",
+                  "Milk, ",
+                  "Sausage, ",
+                  "Salt. "
+                ],
+                "cooking_method": "Make biscuits by mixing together flour, butter, milk, and salt, and baking until golden brown. Cook sausage in a pan, make a gravy from the pan drippings, and serve over the biscuits.",
+                "rating": 4.7
+              },
+              {
+                "recipe_name": "Potato Salad",
+                "ingredients": [
+                  "Potatoes, ",
+                  "Mayonnaise, ",
+                  "Mustard, ",
+                  "Onion, ",
+                  "Celery. "
+                ],
+                "cooking_method": "Boil potatoes, chop onion and celery, mix together mayonnaise and mustard, and combine everything together in a bowl.",
+                "rating": 4.1
+              },
+              {
+                "recipe_name": "Chili",
+                "ingredients": [
+                  "Ground beef, ",
+                  "Beans, ",
+                  "Tomatoes, ",
+                  "Onion, ",
+                  "Chili powder, " 
+                ],
+                "cooking_method": "Cook ground beef, onion, and chili powder in a pot, add beans and tomatoes, and simmer until everything is hot and flavorful.",
+                "rating": 4.4
+              },
+              {
+                "recipe_name": "Fried Chicken",
+                "ingredients": [
+                  "Chicken thighs, ",
+                  "Flour,",
+                  "Buttermilk, ",
+                  "Oil, ",
+                  "Salt, "
+                ],
+                "cooking_method": "Dredge chicken thighs in a mixture of flour and spices, dip in buttermilk, and fry until crispy and golden brown.",
+                "rating": 4.8
+              },
+              {
+                "recipe_name": "BBQ Ribs",
+                "ingredients": [
+                  "Pork ribs, ",
+                  "BBQ sauce, ",
+                  "Brown sugar, ",
+                  "Paprika, ",
+                  "Garlic powder. "
+                ],
+                "cooking_method": "Mix together brown sugar, paprika, and garlic powder, rub onto pork ribs, and bake in the oven. Baste with BBQ sauce and broil until the sauce is caramelized.",
+                "rating": 4.6
+              }
+            ],
             "likes": 12000,
             "bio": "David is a celebrity chef who has hosted several cooking shows on television. He is known for his innovative and experimental approach to cooking, and is constantly pushing the boundaries of traditional cuisine."
           },
       {
         "id": 5,
-        "picture": "https://images.unsplash.com/photo-1595475038784-bbe439ff41e6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        "picture": "https://plus.unsplash.com/premium_photo-1661778091956-15dbe6e47442?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
         "name": "Emily Davis",
         "experience": 8,
         "total_recipes": 35,
-
+        "recipes": [
+          {
+            "recipe_name": "Mac and Cheese",
+            "ingredients": [
+              "Macaroni,",
+              "Milk, ",
+              "Cheddar cheese, ",
+              "Flour, ",
+              "Butter. "
+            ],
+            "cooking_method": "Cook macaroni in boiling water, make a cheese sauce with milk, cheddar cheese, flour, and butter, and bake the mac and cheese until the top is golden brown and crispy.",
+            "rating": 4.5
+          },
+          {
+            "recipe_name": "Potato Salad",
+            "ingredients": [
+              "Potatoes, ",
+              "Mayonnaise, ",
+              "Mustard, ",
+              "Pickles, ",
+              "Onion. "
+            ],
+            "cooking_method": "Boil potatoes until tender, mix together mayonnaise, mustard, chopped pickles and onion, and toss with the potatoes until well coated.",
+            "rating": 4.3
+          },
+          {
+            "recipe_name": "Cheeseburger Soup",
+            "ingredients": [
+              "Ground beef,",
+              "Cheddar cheese,",
+              "Onion, ",
+              "Potatoes, ",
+              "Beef broth, "
+            ],
+            "cooking_method": "Brown ground beef and onion, add potatoes and beef broth, and simmer until the potatoes are tender. Add shredded cheddar cheese, and stir until melted and smooth.",
+            "rating": 4.8
+          },
+          {
+            "recipe_name": "Pulled Pork",
+            "ingredients": [
+              "Pork shoulder, ",
+              "BBQ sauce, ",
+              "Brown sugar, ",
+              "Apple cider vinegar, ",
+              "Garlic powder, "
+            ],
+            "cooking_method": "Rub pork shoulder with a mixture of brown sugar, garlic powder, salt, and pepper, and slow-cook it in a mixture of BBQ sauce and apple cider vinegar until it is tender and falling apart.",
+            "rating": 4.7
+          },
+          {
+            "recipe_name": "Key Lime Pie",
+            "ingredients": [
+              "Graham cracker crust, ",
+              "Sweetened condensed milk, ",
+              "Lime juice, ",
+              "Egg yolks, ",
+              "Whipped cream, "
+            ],
+            "cooking_method": "Mix together sweetened condensed milk, lime juice, and egg yolks, pour the mixture into a graham cracker crust, and bake until set. Top with whipped cream and lime zest.",
+            "rating": 4.2
+          }
+        ]
+      ,
         "likes": 7000,
         "bio": "Emily is a celebrity chef who has hosted several cooking shows on television. He is known for his innovative and experimental approach to cooking, and is constantly pushing the boundaries of traditional cuisine."
       },
@@ -107,7 +363,68 @@
         "name": "Frank Jackson",
         "experience": 3,
         "total_recipes": 20,
-
+        "recipes": [
+          {
+            "recipe_name": "Chicken Fried Steak",
+            "ingredients": [
+              "Beef cube steak, ",
+              "Flour, ",
+              "Buttermilk, ",
+              "Eggs, ",
+              "Seasoning."
+            ],
+            "cooking_method": "Coat beef cube steak in a mixture of seasoned flour, buttermilk, and eggs, and fry until golden brown and crispy. Serve with gravy and mashed potatoes.",
+            "rating": 4.6
+          },
+          {
+            "recipe_name": "Cornbread",
+            "ingredients": [
+              "Cornmeal,",
+              "Flour,",
+              "Sugar,",
+              "Buttermilk,",
+              "Eggs. "
+            ],
+            "cooking_method": "Mix together cornmeal, flour, sugar, buttermilk, and eggs, pour the batter into a greased pan, and bake until golden brown and cooked through.",
+            "rating": 4.1
+          },
+          {
+            "recipe_name": "Beef Stew",
+            "ingredients": [
+              "Beef chuck roast,",
+              "Carrots, ",
+              "Potatoes, ",
+              "Onion, ",
+              "Beef broth. "
+            ],
+            "cooking_method": "Brown beef chuck roast in a pot, add carrots, potatoes, onion, and beef broth, and simmer until the vegetables are tender and the beef is cooked through.",
+            "rating": 4.5
+          },
+          {
+            "recipe_name": "Baked Beans",
+            "ingredients": [
+              "Navy beans, ",
+              "Bacon, ",
+              "Onion, ",
+              "Brown sugar, ",
+              "Molasses. "
+            ],
+            "cooking_method": "Soak navy beans overnight, cook bacon and onion in a pot, add the beans, brown sugar, and molasses, and bake in the oven until the beans are tender and the sauce is thick and sticky.",
+            "rating": 4.3
+          },
+          {
+            "recipe_name": "Sweet Potato Pie",
+            "ingredients": [
+              "Sweet potatoes, ",
+              "Evaporated milk, ",
+              "Brown sugar, ",
+              "Cinnamon, ",
+              "Nutmeg. "
+            ],
+            "cooking_method": "Roast sweet potatoes until tender, blend them with evaporated milk, brown sugar, cinnamon, nutmeg, and eggs, pour the mixture into a pie crust, and bake until set.",
+            "rating": 4.4
+          }
+        ],
         "likes": 3000,
         "bio": "Frank is a celebrity chef who has hosted several cooking shows on television. He is known for his innovative and experimental approach to cooking, and is constantly pushing the boundaries of traditional cuisine."
       }
